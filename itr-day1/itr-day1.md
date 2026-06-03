@@ -1,7 +1,6 @@
-every thing we learn on day 1 of our internship step by step
+**every thing we learn on day 1 of our internship step by step**
 
-Open Visual Studio Code and create or open the project folder you want to upload
-
+1.Open Visual Studio Code and create or open the project folder you want to upload
 Ensure your project has the necessary files (e.g., an index.html file)
 
 2. Create a GitHub Repository
@@ -23,10 +22,11 @@ Paste the GitHub repository link you copied earlier and press Enter
 Enter a Remote Name (e.g., "testcode") and press Enter again
 
 5. Push the Project
-Click the three dots (...) again in the Source Control section
-Select Pull, Push and then click Push to...
-Select the remote you just created (e.g., "testcode")
-Once these steps are completed, your files will be uploaded, and you can refresh your GitHub repository page to see your project online
+**#git status**
+**#git add .**
+**#git commit -m "anything you want"**
+**git push -u origin main**
+
 
 imp git hub commands
 
