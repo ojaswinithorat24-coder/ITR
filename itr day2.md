@@ -3,6 +3,10 @@
 
 During this session, I learned various CSS concepts and explored how websites are designed and styled.
 
+**some extra imps covered**
+how to clone copy the url from code in github and use command-git clone <repository-url>
+                             eg-git clone https://github.com/username/repository-name.git
+                             
 ### Topics Covered
 
 * CSS Styling Methods
