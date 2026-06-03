@@ -69,3 +69,104 @@ This helped me understand how websites are structured, how styles are applied, a
 ### Outcome
 
 This session helped me build a strong foundation in CSS, understand selectors and specificity, and learn how to inspect and analyze real websites using Developer Tools.
+
+### Important Concepts & Examples
+
+#### 1. Class Selector (.)
+
+Used when the same style is needed for multiple elements.
+
+```css
+.heading{
+    color: blue;
+}
+```
+
+```html
+<h1 class="heading">Welcome</h1>
+```
+
+#### 2. ID Selector (#)
+
+Used for a unique element.
+
+```css
+#title{
+    color: red;
+}
+```
+
+```html
+<h1 id="title">Hello</h1>
+```
+
+#### 3. External CSS
+
+Most commonly used in projects.
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+#### 4. Descendant Selector
+
+```css
+div p{
+    color: green;
+}
+```
+
+Targets all paragraph tags inside a div.
+
+#### 5. Child Selector
+
+```css
+div > p{
+    color: purple;
+}
+```
+
+Targets only direct child paragraphs.
+
+#### 6. Attribute Selector
+
+```css
+input[type="text"]{
+    border: 1px solid black;
+}
+```
+
+Targets text input fields.
+
+#### 7. CSS Specificity Priority
+
+```text
+Inline CSS > ID Selector > Class Selector > Element Selector
+```
+
+#### 8. Chrome Developer Tools
+
+Used:
+
+* Inspect Element
+* Console
+* Cookies
+* Browser Storage
+* Live CSS Editing
+
+Practical exploration was done on:
+
+* Bewakoof Website
+* capitalbedrooms.uk Website
+
+#### 9. GitHub Workflow Learned
+
+```bash
+git status
+git add .
+git commit -m "message"
+git push
+```
+
+These commands are used to check changes, save them locally, and push the project to GitHub.
+
