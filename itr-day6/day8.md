@@ -43,6 +43,54 @@ Examples:
 * Arrays
 * Objects
 * Functions
+**Methods to Clone Arrays in JavaScript**
+
+**1. Using slice()**
+
+let arr1 = ["HTML", "CSS"];
+let arr2 = arr1.slice(0);
+
+**2. Using concat()**
+
+let arr1 = ["HTML", "CSS"];
+let arr2 = [].concat(arr1);
+
+**3. Using Spread Operator (...)**
+
+let arr1 = ["HTML", "CSS"];
+let arr2 = [...arr1];
+
+Why Array Cloning is Needed
+
+If we directly assign one array to another:
+
+let arr1 = ["HTML", "CSS"];
+let arr2 = arr1;
+
+arr2.push("JavaScript");
+
+Both arr1 and arr2 will become:
+
+["HTML", "CSS", "JavaScript"]
+
+This happens because both variables refer to the same array in memory.
+
+Array Cloning Methods Learned
+slice()
+concat()
+spread operator (...)
+Example
+
+Original Array:
+
+["HTML", "CSS"]
+
+Cloned Array:
+
+["HTML", "CSS"]
+
+The cloned array is stored separately in memory, so changes in one array do not affect the other.
+.
 
 ## Outcome
 
