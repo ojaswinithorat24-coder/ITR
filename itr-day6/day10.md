@@ -58,21 +58,29 @@ Output:
 * CSS
 * JavaScript
 
-## Array Cloning
+**Undefined, Null, and BigInt
+Undefined**
 
-Array cloning is used to create a copy of an existing array so that changes made to one array do not affect the other.
+A variable declared but not assigned a value.
 
-### Example
+Example:
 
-Original Array:
+let name;
+Output: undefined
+Null
 
-* ["HTML", "CSS"]
+Represents an intentionally empty value.
 
-Cloned Array:
+Example:
 
-* ["HTML", "CSS"]
+let data = null;
+BigInt
 
-Both arrays exist independently.
+Used for very large numbers.
+
+Example:
+
+12345678901234567890n
 
 ## Spread Operator (...)
 
