@@ -8,11 +8,15 @@ I also learned about Node JS, which is used for backend development. It allows J
 
 As part of practice, I created a basic project folder structure to understand how real projects are organized. I made separate folders such as:
 
-frontend/ – for React JS files
-backend/ – for Node JS server code
-components/ – for reusable UI components
-pages/ – for different screens or routes
-assets/ – for images, CSS, and other static files
+frontend – for React JS files
+
+backend – for Node JS server code
+
+components – for reusable UI components
+
+pages – for different screens or routes
+
+assets – for images, CSS, and other static files
 
 This helped me understand how professional full-stack projects are structured and how frontend and backend are separated but connected.
 
