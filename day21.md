@@ -1,4 +1,7 @@
 # Day 21 – Internship Diary
+=======
+# Day 21– Internship Diary
+>>>>>>> 7c884d3 (:days)
 
 **Date:** July 1, 2026
 
