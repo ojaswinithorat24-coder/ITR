@@ -1,4 +1,4 @@
-# Day 3 – Internship Diary
+# Day 21 – Internship Diary
 
 **Date:** July 1, 2026
 
