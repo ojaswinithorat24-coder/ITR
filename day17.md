@@ -6,7 +6,7 @@ Today I continued my internship learning and focused on FastAPI (basic understan
 
 First, I learned about FastAPI conceptually. I understood that FastAPI is a backend framework used to create APIs that connect frontend and backend.
 
-Even though I did not set up FastAPI practically, I learned how it works in real applications.
+Even though I did not set up FastAPI practically, I learned how it works in real applicationbs.
 
 **Basic Idea:**
 
